@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Martine fait des formulaires</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <form  id="un">
+      <div class"nom">
+          <legend for="nom"> Full Name<span>*</span></legend>
+          <input required type="text" placeholder=First name="First"/>
+          <input  required type="text" placeholder=Last name="Last"/>
+      </div>
+      <div id="unMail">
+          <legend for="mail"> Email<span>*</span></legend>
+          <input required type="email" name="mail"/>
+      </div>
+      <div>
+          <legend for="subject"> Subject</legend>
+          <select>
+              <optgroup label="Advertise">
+                <option>Advertise</option>
+                <option>Option 2</option>
+              </optgroup>
+          </select>
+      </div>
+      <div>
+          <legend for="message"> Your Message<span>*</span></legend>
+          <textarea required></textarea>
+      </div>
+      <div>
+          <input id="unBouton" type=submit>
+      </div>
+      </form>
+
+      <form  id="deux">
+        <h3> Provide your information</h3>
+        <div>
+            <label for="nom">Name<span>*</span></label>
+            <input class="deuxlargeur" required type="text" name="Name"/>
+        </div>
+        <div>
+            <label for="mail"> Email<span>*</span></label>
+            <input class="deuxlargeur" required type="email" name="mail"/>
+        </div>
+        <div class="telephone">
+            <label for="telephone"> Telephone</label>
+            <input type="text" maxlength="2" name="telephone1"/>-<input type="text" maxlength="2" name="telephone2"/>-<input type="text" maxlength="2" name="telephone3"/>-<input type="text" maxlength="2" name="telephone4"/>-<input type="text" maxlength="2" name="telephone5"/>
+        </div>
+        <div>
+            <label for="Regarding"> Regarding</label>
+            <select>
+                <optgroup label="General">
+                  <option>General</option>
+                  <option>Option 2</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label id="deuxmessage" for="message">Message<span>*</span></label>
+            <textarea required></textarea>
+        </div>
+        <div>
+            <input id="deuxBouton" type=submit>
+        </div>
+
+      </form>
+
+  </body>
+</html

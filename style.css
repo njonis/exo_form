@@ -1,0 +1,103 @@
+
+* {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      outline-style: none;
+ }
+
+body{
+  font-family:"trebuchet ms",sans-serif;
+  font-size:20px;
+ }
+
+ form{
+   margin-bottom: 60px;
+ }
+
+ input:hover, textarea:hover{
+   box-shadow:1px 1px 1px 1px #3798AE;
+ }
+
+ #un, #deux{
+   margin-left: 50px;
+   margin-top: 50px;
+ }
+
+ #un div{
+   margin-bottom: 10px;
+ }
+
+ #un select{
+   width: 375px;
+   height: 40px;
+ }
+
+ #un textarea, #deux textarea{
+   width: 375px;
+   height: 100px;
+ }
+
+input{
+   padding: 5px;
+ }
+
+ #unMail input{
+   width: 375px;
+ }
+
+ #unBouton{
+   width:80px;
+   height: 30px;
+   border-radius: 6px;
+   background-color: #3798AE;
+ }
+
+ #un span, #deux span{
+   color:red;
+ }
+
+ #deux h3{
+   border-bottom: 1px solid grey;
+   width: 500px;
+ }
+
+ #deux div{
+   margin-top: 30px;
+ }
+
+#deux label{
+  margin-right: 30px;
+  width: 80px;
+  display: inline-block;
+}
+
+#deuxmessage{
+  float: left;
+  margin-right: 30px;
+  width: 80px;
+}
+
+.deuxlargeur{
+  width: 375px;
+}
+
+#deux select{
+  height: 50px;
+  width: 180px;
+}
+
+#deuxBouton{
+  width:80px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #FF8500;
+  color: white;
+  margin-left: 110px;;
+}
+
+.telephone input{
+  width: 40px;
+}
