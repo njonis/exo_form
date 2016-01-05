@@ -21,7 +21,7 @@ body{
    box-shadow:1px 1px 1px 1px #3798AE;
  }
 
- #un, #deux{
+ #un, #deux, #trois{
    margin-left: 50px;
    margin-top: 50px;
  }
@@ -55,7 +55,7 @@ input{
    background-color: #3798AE;
  }
 
- #un span, #deux span{
+ #un span, #deux span, #trois span{
    color:red;
  }
 
@@ -100,4 +100,82 @@ input{
 
 .telephone input{
   width: 40px;
+}
+
+#trois fieldset{
+  background-color: #FFF4F4;
+  width: 500px;
+  color:#F284B4;
+  border-radius: 5px;
+  border: 1px solid #F284B4;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+#trois div{
+  margin-top: 20px;
+}
+
+.troislabel{
+  margin-right: 30px;
+  width: 100px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.titreetoile{
+  float: left;
+}
+
+#messageetoile{
+  float: left;
+}
+
+#troismessage{
+  float: left;
+  margin-right: 30px;
+  width: 100px;
+  margin-left: 30px;
+}
+
+.fond{
+  background-color: #FFF4F4;
+  border-radius: 5px;
+  border: solid  1px #F284B4;
+}
+
+#trois legend{
+  background-color: #FFF4F4;
+  border-left: 1px solid #F284B4;
+  border-right: 1px solid #F284B4;
+  border-top: 1px solid #F284B4;
+  border-radius: 6px 6px 0px 0px;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+#trois select{
+  width: 210px;
+  background-color: #FFF4F4;
+  border-radius: 6px;
+  border: 1px solid #F284B4;
+  height: 30px;
+  color: #F284B4;
+}
+
+#trois textarea{
+  width: 250px;
+  height: 80px;
+  background-color: #FFF4F4;
+  border-radius: 6px;
+  border: 1px solid #F284B4;
+}
+
+#troisBouton{
+  width:80px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #F284B4;
+  color: white;
+  margin-left: 155px;;
 }

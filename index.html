@@ -67,5 +67,42 @@
 
       </form>
 
+      <form id="trois">
+        <fieldset>
+           <legend>Personal</legend>
+           <div>
+               <label class="troislabel" for="nom"><h3 class="titreetoile">Name</h3><span>*</span></label>
+               <input class="fond" required type="text" name="Name"/>
+           </div>
+           <div>
+               <label class="troislabel" for="mail"><h3 class="titreetoile"> Email</h3><span>*</span></label>
+               <input class="fond" required type="email" name="mail"/>
+           </div>
+           <div>
+               <label class="troislabel" for="telephone"> <h3>Telephone</h3></label>
+               <input class="fond" type="text" maxlength="10" name="telephone1"/>
+             </div>
+             <div>
+                 <label class="troislabel" for="Subject"> <h3>Subject</h3></label>
+                 <select>
+                     <optgroup label=" Appointement">
+                       <option> Appointement</option>
+                       <option>Option 2</option>
+                     </optgroup>
+                  </select>
+            </div>
+        </fieldset>
+        <fieldset>
+          <legend>Message</legend>
+          <div>
+              <label id="troismessage" for="message"><h3 id="messageetoile">Message<span>*</span></h3></label>
+              <textarea required></textarea>
+          </div>
+          <div>
+              <input id="troisBouton" type=submit>
+          </div>
+        </fieldset>
+      </form>
+
   </body>
 </html
